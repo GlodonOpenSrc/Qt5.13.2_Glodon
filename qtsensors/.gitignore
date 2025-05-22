@@ -1,0 +1,109 @@
+# This file is used to ignore files which are generated in the Qt build system
+# ----------------------------------------------------------------------------
+
+*~
+*.a
+*.la
+*.core
+*.moc
+*.o
+*.obj
+*.orig
+*.swp
+*.rej
+*.so
+*.pbxuser
+*.mode1
+*.mode1v3
+*_pch.h.cpp
+*_resource.rc
+.#*
+*.*#
+core
+.qmake.cache
+.qmake.vars
+config.log
+*.prl
+tags
+.DS_Store
+*.debug
+Makefile*
+*.app
+*.pro.user
+*.qmlproject.user
+*.gcov
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# Test generated files
+QObject.log
+tst_*
+!tst_*.*
+tst_*.log
+tst_*.moc
+tst_*.o
+tst_*.debug
+tst_*~
+tests/auto/cmake/build
+
+# xemacs temporary files
+*.flc
+
+# Vim temporary files
+.*.swp
+
+# Visual Studio generated files
+*.ib_pdb_index
+*.idb
+*.ilk
+*.pdb
+*.sln
+*.suo
+*.vcproj
+*vcproj.*.*.user
+*.ncb
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.exe
+*.manifest
+*.res
+
+# MinGW generated files
+*.Debug
+*.Release
+
+# Generated documentation
+doc/src/snippets/sensorgestures/sensorgesturessdocsnippet
+doc/src/snippets/sensors/sensorsdocsnippet
+
+# Generated example binaries
+examples/sensors/accel/accel
+examples/sensors/accelbubble/accelbubble
+examples/sensors/grue/console_app/detect_grue
+examples/sensors/grue/grue
+examples/sensors/grue/lib/*gruesensor*
+examples/sensors/maze/maze
+examples/sensors/qmlqtsensors/qmlqtsensors
+examples/sensors/qmlsensorgestures/qmlsensorgestures
+examples/sensors/sensor_explorer/sensor_explorer
+examples/sensors/sensorgestures/gesture
+examples/sensors/shakeit/shakeit
+
+# Generated config test binaries
+config.tests/bbsensor_compass/bbsensor_compass
+config.tests/bbsensor_header/bbsensor_header
+config.tests/bbsensor_holster/bbsensor_holster
+
+# Directories to ignore
+# ---------------------
+
+include
+mkspecs
+doc/qtsensors
+
+# These shouldn't even be in the source directory!
+src/sensors/qtsensorsversion.h
+src/qtmsensors/qtmsensorsversion.h
+
